@@ -1,0 +1,40 @@
+body{background-color: rgb(245, 245, 233);}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+p{text-align: center;
+
+
+
+}
+
+#a{
+    color: green;
+}
+#b{
+color: blue;
+}
+#c{
+    color:yellow ;
+}
+#d{
+    color: pink;
+}
+#quadrado{
+    width: px ;
+    height: px ;
+    background-color: rgb(64, 64, 187);}
+#quadrado2{
+    
+    background-color: rgb(201, 221, 111);
+    width: px ;
+    height: px ;
+}
+.basico{
+    width: 250px ;
+    height:250px ;
+    background-color: aqua;
+    padding-top: 20px;
+}
