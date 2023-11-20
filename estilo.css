@@ -1,0 +1,20 @@
+.imagem{
+    margin: auto;
+  display: block;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.espaco{
+        margin: 60px 0;
+}
+.espaco2{
+    margin: 50px 0;
+}
+footer {
+	background-color: #262736;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
