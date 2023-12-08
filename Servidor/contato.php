@@ -1,3 +1,16 @@
+<?php
+    include("conexao.php");
+
+    if(isset($_POST['bt_nome'])){
+        $nome = $_POST['bt_nome'];
+        $telefone = $_POST['bt_telefone'];
+        $mensagem = $_POST['bt_mensagem'];
+
+        $mysqli->query("INSERT INTO tabela_contato (nome, telefone, mensagem) values('$nome', '$telefone', '$mensagem')") or
+        die($mysqlierrno);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
